@@ -32,12 +32,12 @@ const Portfolio = () => {
 
   useEffect(() => {
     setIsVisible(true);
-    
+
     // Font cycling effect
     const fontInterval = setInterval(() => {
       setCurrentFontIndex((prev) => (prev + 1) % fonts.length);
     }, 2500); // Change font every 2.5 seconds
-    
+
     // Load Vanta.js scripts
     const loadVanta = () => {
       if (window.VANTA && window.THREE) {
@@ -57,7 +57,7 @@ const Portfolio = () => {
           spacing: 35,
           showLines: true
         });
-        
+
         return () => {
           if (vantaEffect) vantaEffect.destroy();
         };
@@ -97,8 +97,8 @@ const Portfolio = () => {
 
   const skills = [
     "c++", "SQL", "JavaScript", "TypeScript", "C", "HTML", "CSS",
-    "ReactJS", "Bootstrap", "RestAPIs","Tailwind CSS",
-    "MongoDB", "MySQL","Git", "GitHub", "VS Code",
+    "ReactJS", "Bootstrap", "RestAPIs", "Tailwind CSS",
+    "MongoDB", "MySQL", "Git", "GitHub", "VS Code",
     "Node.js", "Express.js"
   ];
 
@@ -109,11 +109,11 @@ const Portfolio = () => {
       longDescription: "QualityBot integrates Google Gemini LLM for intelligent responses, FastAPI backend, and React + TypeScript + Tailwind CSS frontend to deliver a seamless multi-platform experience. It supports Excel/CSV and ERP data integration, providing dashboards, SPC charts, Six Sigma, RCA, and FMEA insights for quality improvement and decision-making.",
       tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "FastAPI", "JWT Authentication", "Google Gemini LLM", "Excel/CSV Integration", "ERP Integration", "REST APIs"],
       features: [
-    "AI-driven defect detection and classification",
-    "Real-time dashboards with SPC, Six Sigma, RCA, and FMEA insights",
-    "Predictive analytics for process optimization",
-    "Automated report generation from Excel/ERP data",
-    "Interactive, role-based guidance for MSMEs, engineers, and students"
+        "AI-driven defect detection and classification",
+        "Real-time dashboards with SPC, Six Sigma, RCA, and FMEA insights",
+        "Predictive analytics for process optimization",
+        "Automated report generation from Excel/ERP data",
+        "Interactive, role-based guidance for MSMEs, engineers, and students"
       ],
       github: "https://github.com/Harshita-HKumawat/QualityBot",
       demo: "#"
@@ -124,12 +124,12 @@ const Portfolio = () => {
       longDescription: "MedLock is designed to ensure medicine authenticity and safety. The system provides manufacturers with secure registration, automated batch management, cryptographic QR code generation, and AI-powered scan behavior analysis. Admins can monitor suspicious activity in real time, while the public can verify medicines via QR codes. Frontend is built with Jinja2 templates, Bootstrap, and Font Awesome; backend uses Flask, FastAPI-style session management, and robust security features.",
       tech: ["Flask", "Python", "Bootstrap", "Jinja2", "Font Awesome", "qrcode", "Werkzeug", "Pillow", "REST APIs", "JWT Authentication"],
       features: [
-          "Secure manufacturer registration with email verification and semi-automatic approval",
-    "Advanced batch management with cryptographic QR codes and license validation",
-    "AI-powered scan monitoring for suspicious activity detection",
-    "Comprehensive admin dashboard with real-time statistics and logs",
-    "Support for Excel/CSV and ERP integration for batch data",
-    "Tamper detection and alert system to prevent counterfeit medicines"
+        "Secure manufacturer registration with email verification and semi-automatic approval",
+        "Advanced batch management with cryptographic QR codes and license validation",
+        "AI-powered scan monitoring for suspicious activity detection",
+        "Comprehensive admin dashboard with real-time statistics and logs",
+        "Support for Excel/CSV and ERP integration for batch data",
+        "Tamper detection and alert system to prevent counterfeit medicines"
       ],
       github: "https://github.com/Harshita-HKumawat/MedLock-FakeMedicinePrevention",
       demo: "#"
@@ -140,13 +140,13 @@ const Portfolio = () => {
       longDescription: "WhisperLens leverages Next.js, TypeScript, Tailwind CSS, and React to provide real-time voice-to-text conversion, emotion-based subtitle coloring, and speaker identification. The system supports multiple languages (EN/HI/ES), offers customizable UI/UX with magical animations, and allows exporting subtitles in TXT/SRT formats. Designed for accessibility, education, gaming, streaming, and professional communication, WhisperLens provides an engaging, interactive, and immersive experience for all users.",
       tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Radix UI", "Lucide React", "CSS Animations", "Google Fonts", "Node.js", "npm/yarn"],
       features: [
-         "Live voice-to-text subtitle generation with word-by-word animation",
-    "Emotion-based dynamic coloring and tone analysis with emoji tags",
-    "Speaker identification for multi-speaker scenarios",
-    "Multi-language support (English, Hindi, Spanish)",
-    "Customizable interface with font size, theme, and magical effects",
-    "Export subtitles in TXT and SRT formats with emotion and speaker tags",
-    "Harry Potter themed magical UI/UX with floating candles, sparkles, and animations"
+        "Live voice-to-text subtitle generation with word-by-word animation",
+        "Emotion-based dynamic coloring and tone analysis with emoji tags",
+        "Speaker identification for multi-speaker scenarios",
+        "Multi-language support (English, Hindi, Spanish)",
+        "Customizable interface with font size, theme, and magical effects",
+        "Export subtitles in TXT and SRT formats with emotion and speaker tags",
+        "Harry Potter themed magical UI/UX with floating candles, sparkles, and animations"
       ],
       github: "https://github.com/Harshita-HKumawat/WhisperLens",
       demo: "#"
@@ -161,14 +161,14 @@ const Portfolio = () => {
       duration: "June 2025 - July 2025",
       description: "Completed a 45-day Frontend Web Developer Training Program, gaining hands-on experience in HTML, CSS, JavaScript, and responsive web design. Developed interactive, user-friendly applications while strengthening debugging, UI/UX optimization, and problem-solving skills.",
       achievements: [
-       "Built responsive and interactive web applications using HTML, CSS, and JavaScript",
-    "Enhanced debugging and problem-solving skills through practical exercises",
-    "Optimized UI/UX for better user experience and accessibility",
-    "Gained practical experience in front-end development workflows and best practices"
+        "Built responsive and interactive web applications using HTML, CSS, and JavaScript",
+        "Enhanced debugging and problem-solving skills through practical exercises",
+        "Optimized UI/UX for better user experience and accessibility",
+        "Gained practical experience in front-end development workflows and best practices"
       ],
       skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "UI/UX Optimization", "Debugging", "Front-end Development"]
     },
-   
+
     {
       role: "Intern – Control and Instrumentation",
       company: "Rajasthan Rajya Vidyut Utpadan Nigam Ltd. (RRVUNL)",
@@ -176,10 +176,10 @@ const Portfolio = () => {
       duration: "June 2023",
       description: "Completed a 15-day training at the 2x660MW Super Critical Thermal Power Project, gaining hands-on experience with SCADA, DCS, and industrial automation systems. Learned real-time monitoring, PLC-based control, and integration of sensors and actuators for automation.",
       achievements: [
-      "Gained practical experience with SCADA and DCS systems for power plant operations",
-    "Worked on PLC-based control and integration of sensors and actuators",
-    "Understood real-time monitoring and automation workflows in a thermal power plant",
-    "Enhanced technical knowledge of industrial control and instrumentation systems"
+        "Gained practical experience with SCADA and DCS systems for power plant operations",
+        "Worked on PLC-based control and integration of sensors and actuators",
+        "Understood real-time monitoring and automation workflows in a thermal power plant",
+        "Enhanced technical knowledge of industrial control and instrumentation systems"
       ],
       skills: ["SCADA", "DCS", "PLC Programming", "Industrial Automation", "Sensors & Actuators", "Real-time Monitoring", "Instrumentation"]
     }
@@ -245,9 +245,8 @@ const Portfolio = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`hover:text-orange-500 transition-colors relative font-medium ${
-                    activeSection === item.id ? 'text-orange-500' : 'text-foreground'
-                  }`}
+                  className={`hover:text-orange-500 transition-colors relative font-medium ${activeSection === item.id ? 'text-orange-500' : 'text-foreground'
+                    }`}
                 >
                   {item.name}
                   {activeSection === item.id && (
@@ -296,19 +295,18 @@ const Portfolio = () => {
       </nav>
 
       {/* Hero Section */}
-      <section ref={vantaRef} id="about" className="pt-20 md:pt-24 pb-20 relative overflow-hidden" style={{minHeight: '100vh'}}>
+      <section ref={vantaRef} id="about" className="pt-20 md:pt-24 pb-20 relative overflow-hidden" style={{ minHeight: '100vh' }}>
         <div className="section-container relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[80vh]">
             {/* Left Content */}
-            <div className={`transform transition-all duration-1000 ${
-              isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-            }`}>
+            <div className={`transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+              }`}>
               <div className="space-y-4 md:space-y-6">
 
                 <h1 className={`text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white leading-tight drop-shadow-2xl transition-all duration-500 ${fonts[currentFontIndex]}`}>
                   Harshita Kumawat
                 </h1>
-                
+
                 <div className="space-y-2 md:space-y-4">
                   <h2 className="text-xl md:text-3xl lg:text-3xl xl:text-4xl font-normal">
                     <span className="bg-gradient-to-r from-orange-400 via-orange-500 to-amber-400 bg-clip-text text-transparent">Developer from</span>
@@ -317,18 +315,18 @@ const Portfolio = () => {
                     <span className="bg-gradient-to-r from-orange-400 via-orange-500 to-amber-400 bg-clip-text text-transparent">Rajasthan, India</span>
                   </h2>
                 </div>
-                
+
                 <div className="flex flex-col sm:flex-row gap-4 pt-4 md:pt-6">
-                  <a 
-                    href="/Harshita Kumawat.pdf" 
-                    target="_blank" 
+                  <a
+                    href="/Harshita Kumawat.pdf"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-2xl flex items-center justify-center space-x-2 border border-orange-400/30"
                   >
                     <span>VIEW RESUME</span>
                     <ExternalLink className="w-5 h-5" />
                   </a>
-                  <button 
+                  <button
                     onClick={() => scrollToSection('contact')}
                     className="bg-white/10 backdrop-blur-sm border border-orange-400/30 text-white px-6 py-3 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 hover:bg-orange-500/20 hover:shadow-2xl"
                   >
@@ -348,18 +346,18 @@ const Portfolio = () => {
               <div className="relative">
                 <div className="floating-element">
                   <div className="w-full max-w-sm md:max-w-lg mx-auto h-64 md:h-80 lg:h-96 bg-gradient-to-br from-orange-500/10 to-amber-500/10 backdrop-blur-sm rounded-3xl flex items-center justify-center shadow-2xl overflow-hidden border border-orange-400/30">
-                    <img 
-                      src="/prof.jpg" 
+                    <img
+                      src="/prof.jpg"
                       alt="Harshita Kumawat"
                       className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
-                
+
                 {/* Enhanced Floating Elements */}
-                <div className="absolute top-10 left-10 w-12 h-12 md:w-16 md:h-16 bg-orange-400/25 rounded-full blur-xl floating-element animate-pulse" style={{animationDelay: '1s'}}></div>
-                <div className="absolute bottom-20 right-10 w-16 h-16 md:w-20 md:h-20 bg-amber-400/20 rounded-full blur-xl floating-element animate-pulse" style={{animationDelay: '2s'}}></div>
-                <div className="absolute top-1/2 -left-8 w-8 h-8 md:w-12 md:h-12 bg-orange-300/30 rounded-full blur-xl floating-element animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                <div className="absolute top-10 left-10 w-12 h-12 md:w-16 md:h-16 bg-orange-400/25 rounded-full blur-xl floating-element animate-pulse" style={{ animationDelay: '1s' }}></div>
+                <div className="absolute bottom-20 right-10 w-16 h-16 md:w-20 md:h-20 bg-amber-400/20 rounded-full blur-xl floating-element animate-pulse" style={{ animationDelay: '2s' }}></div>
+                <div className="absolute top-1/2 -left-8 w-8 h-8 md:w-12 md:h-12 bg-orange-300/30 rounded-full blur-xl floating-element animate-pulse" style={{ animationDelay: '0.5s' }}></div>
               </div>
             </div>
           </div>
@@ -377,7 +375,7 @@ const Portfolio = () => {
                   A tireless developer that works against the clock to squeeze as much learning into a day.
                 </p>
                 <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                 I am passionate about software and web development, driven by a curiosity to build, experiment, and innovate. Currently pursuing Computer Science and Engineering at Mahila Engineering College, Ajmer.I enjoy exploring new technologies, mastering diverse tools, and transforming ideas into impactful projects.
+                  I am passionate about software and web development, driven by a curiosity to build, experiment, and innovate. Currently pursuing Computer Science and Engineering at Mahila Engineering College, Ajmer.I enjoy exploring new technologies, mastering diverse tools, and transforming ideas into impactful projects.
                 </p>
                 <div className="grid grid-cols-2 gap-4 md:gap-6 pt-4 md:pt-6">
                   <div>
@@ -402,8 +400,8 @@ const Portfolio = () => {
             <div className="flex justify-center order-first lg:order-last">
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-3xl overflow-hidden shadow-strong">
-                  <img 
-                    src="/me.jpg" 
+                  <img
+                    src="/me.jpg"
                     alt="Harshita Kumawat - About Me"
                     className="w-full h-full object-cover"
                   />
@@ -421,7 +419,7 @@ const Portfolio = () => {
       </section>
 
       {/* Experience Section */}
-      <section id="experience" className="py-20" style={{backgroundColor: '#222222'}}>
+      <section id="experience" className="py-20" style={{ backgroundColor: '#222222' }}>
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Professional Experience</h2>
@@ -429,7 +427,7 @@ const Portfolio = () => {
               A journey through impactful internships and technical contributions across leading technology companies
             </p>
           </div>
-          
+
           <div className="space-y-8">
             {experiences.map((exp, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 shadow-soft card-hover border border-orange-400/20">
@@ -440,10 +438,10 @@ const Portfolio = () => {
                     <p className="text-orange-400 font-semibold text-lg mb-1">{exp.company}</p>
                     <p className="text-gray-300 text-sm">{exp.location}</p>
                   </div>
-                  
+
                   <div className="lg:col-span-3">
                     <p className="text-gray-300 mb-6 leading-relaxed">{exp.description}</p>
-                    
+
                     <div className="mb-6">
                       <h4 className="text-white font-semibold mb-4">Key Achievements</h4>
                       <ul className="grid md:grid-cols-2 gap-3">
@@ -455,7 +453,7 @@ const Portfolio = () => {
                         ))}
                       </ul>
                     </div>
-                    
+
                     <div>
                       <h4 className="text-white font-semibold mb-3">Technologies Used</h4>
                       <div className="flex flex-wrap gap-2">
@@ -483,18 +481,18 @@ const Portfolio = () => {
               Innovative solutions combining cutting-edge technologies to solve real-world problems
             </p>
           </div>
-          
+
           <div className="relative">
             {/* Navigation Arrows */}
-            <button 
+            <button
               onClick={prevProject}
               className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-soft hover:shadow-medium transition-all duration-300 hover:bg-orange-500 hover:text-white group"
               style={{ marginLeft: '-20px' }}
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
-            
-            <button 
+
+            <button
               onClick={nextProject}
               className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-3 shadow-soft hover:shadow-medium transition-all duration-300 hover:bg-orange-500 hover:text-white group"
               style={{ marginRight: '-20px' }}
@@ -509,7 +507,7 @@ const Portfolio = () => {
                   <h3 className="text-3xl font-bold text-foreground mb-4">{projects[currentProjectIndex].name}</h3>
                   <p className="text-muted-foreground mb-6 leading-relaxed text-lg">{projects[currentProjectIndex].description}</p>
                   <p className="text-muted-foreground/80 mb-8 leading-relaxed">{projects[currentProjectIndex].longDescription}</p>
-                  
+
                   <div className="mb-8">
                     <h4 className="text-foreground font-semibold mb-4 text-lg">Key Features</h4>
                     <ul className="grid md:grid-cols-2 gap-3">
@@ -521,7 +519,7 @@ const Portfolio = () => {
                       ))}
                     </ul>
                   </div>
-                  
+
                   <div className="flex space-x-4">
                     <a href={projects[currentProjectIndex].github} className="bg-foreground text-white px-6 py-3 rounded-2xl font-semibold transition-all hover:bg-foreground/90 flex items-center space-x-2">
                       <Github className="w-5 h-5" />
@@ -529,7 +527,7 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                
+
                 <div className="lg:col-span-1">
                   <div className="bg-muted/50 rounded-2xl p-6 h-full">
                     <h4 className="text-foreground font-semibold mb-4">Tech Stack</h4>
@@ -551,11 +549,10 @@ const Portfolio = () => {
                 <button
                   key={index}
                   onClick={() => setCurrentProjectIndex(index)}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    index === currentProjectIndex 
-                      ? 'bg-orange-500 scale-125' 
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentProjectIndex
+                      ? 'bg-orange-500 scale-125'
                       : 'bg-muted-foreground/30 hover:bg-muted-foreground/50'
-                  }`}
+                    }`}
                 />
               ))}
             </div>
@@ -564,7 +561,7 @@ const Portfolio = () => {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20" style={{backgroundColor: '#222222'}}>
+      <section id="skills" className="py-20" style={{ backgroundColor: '#222222' }}>
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Technical Skills</h2>
@@ -572,7 +569,7 @@ const Portfolio = () => {
               A comprehensive toolkit spanning multiple programming languages, frameworks, and technologies
             </p>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {skills.map((skill, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 shadow-soft card-hover text-center group border border-orange-400/20">
@@ -592,7 +589,7 @@ const Portfolio = () => {
               Academic excellence and competitive programming achievements that demonstrate consistent performance
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {achievements.map((achievement, index) => (
               <div key={index} className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-3xl p-8 shadow-soft card-hover group border border-orange-100">
@@ -611,7 +608,7 @@ const Portfolio = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20" style={{backgroundColor: '#222222'}}>
+      <section id="contact" className="py-20" style={{ backgroundColor: '#222222' }}>
         <div className="section-container">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">Let's Connect</h2>
@@ -619,7 +616,7 @@ const Portfolio = () => {
               Ready to collaborate on exciting projects? Let's discuss how we can build something amazing together.
             </p>
           </div>
-          
+
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">
@@ -632,8 +629,8 @@ const Portfolio = () => {
                     <p className="text-white font-semibold">sbn.harshitak@gmail.com</p>
                   </div>
                 </div>
-                
-                
+
+
                 <div className="flex items-center space-x-4 p-6 bg-white/10 backdrop-blur-sm rounded-2xl shadow-soft border border-orange-400/20">
                   <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center border border-orange-400/30">
                     <Linkedin className="w-6 h-6 text-orange-400" />
@@ -645,7 +642,7 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center space-x-4 p-6 bg-white/10 backdrop-blur-sm rounded-2xl shadow-soft border border-orange-400/20">
                   <div className="w-12 h-12 bg-orange-500/20 rounded-xl flex items-center justify-center border border-orange-400/30">
                     <Github className="w-6 h-6 text-orange-400" />
@@ -658,7 +655,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 shadow-soft border border-orange-400/20">
                 <h3 className="text-2xl font-bold text-white mb-6">Current Status</h3>
                 <div className="space-y-4">
@@ -675,10 +672,10 @@ const Portfolio = () => {
                     <span className="text-gray-300">Learning new technologies</span>
                   </div>
                 </div>
-                
+
                 <div className="mt-8 p-6 bg-orange-500/10 rounded-2xl border border-orange-400/30">
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    "I'm passionate about creating innovative solutions that bridge the gap between technology and human needs. 
+                    "I'm passionate about creating innovative solutions that bridge the gap between technology and human needs.
                     Let's build something extraordinary together!"
                   </p>
                 </div>
@@ -689,7 +686,7 @@ const Portfolio = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-orange-400/30" style={{backgroundColor: '#222222'}}>
+      <footer className="py-12 border-t border-orange-400/30" style={{ backgroundColor: '#222222' }}>
         <div className="section-container">
           <div className="flex flex-col md:flex-row justify-center items-center">
             <div className="flex space-x-6">
